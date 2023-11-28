@@ -12,7 +12,17 @@ export default class BeforeDisclosure extends Component {
     return "---" + this.args.outletArgs.model.tags + " " + this.args.outletArgs.model.category.id;
   }
 
-  get goodCategory() {
-    return this.args.outletArgs.model.category?.id == 16;
+  get showDisclosure() {
+    let category_match = this.args.outletArgs.model.category?.id == settings.category_id;
+    
+    let allowed_tags = settings.valid_tags.split("|");
+    let tag_match = false;
+    for (const assigned_tag in this.args.outletArgs.model.tags) {
+      if (allowed_tags.includes(assigned_tag) {
+        tag_match = true;
+        break;
+      }
+    }
+    return category_match && tag_match;
   }
 }
