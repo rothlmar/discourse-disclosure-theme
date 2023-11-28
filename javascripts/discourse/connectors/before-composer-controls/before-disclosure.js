@@ -15,15 +15,15 @@ export default class BeforeDisclosure extends Component {
   get showDisclosure() {
     let category_match = this.args.outletArgs.model.category?.id === settings.category_id;
 
-    let allowed_tags = settings.valid_tags.split("|");
-    console.log(allowed_tags, this.args.outletArgs.model.tags);
-    let tag_match = false;
-    for (const assigned_tag in this.args.outletArgs.model.tags) {
-      if (allowed_tags.includes(assigned_tag)) {
-        tag_match = true;
-        break;
-      }
-    }
-    return category_match && tag_match;
+    // let allowed_tags = settings.valid_tags.split("|");
+    // console.log(allowed_tags, this.args.outletArgs.model.tags);
+    // let tag_match = false;
+    // for (const assigned_tag in this.args.outletArgs.model.tags) {
+    //   if (allowed_tags.includes(assigned_tag)) {
+    //     tag_match = true;
+    //     break;
+    //   }
+    // }
+    return category_match;
   }
 }
