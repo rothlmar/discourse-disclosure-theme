@@ -7,7 +7,8 @@ export default class BeforeDisclosure extends Component {
     // return outletArgs.model.tags.length > 0;
   // }
   
-  get processableTags() {
-    return "TAGS: " + settings.valid_tags;
+  get tagsAndCategory() {
+    // return "TAGS: " + settings.valid_tags;
+    return "---" + this.args.outletArgs.model.tags + " " + this.args.outletArgs.model.category;
   }
 }
