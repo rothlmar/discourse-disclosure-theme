@@ -13,6 +13,6 @@ export default class BeforeDisclosure extends Component {
   }
 
   get goodCategory() {
-    return this.args.outletArgs.model.category.id == 16;
+    return this.args.outletArgs.model.category?.id == 16;
   }
 }
