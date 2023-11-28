@@ -13,6 +13,7 @@ export default class BeforeDisclosure extends Component {
   }
 
   get showDisclosure() {
+    console.log(this.args.outletArgs);
     let category_match = this.args.outletArgs.model.category?.id === settings.category_id;
 
     // let allowed_tags = settings.valid_tags.split("|");
