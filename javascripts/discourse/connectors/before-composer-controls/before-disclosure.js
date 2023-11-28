@@ -9,6 +9,6 @@ export default class BeforeDisclosure extends Component {
   
   get tagsAndCategory() {
     // return "TAGS: " + settings.valid_tags;
-    return "---" + this.args.outletArgs.model.tags + " " + this.args.outletArgs.model.category;
+    return "---" + this.args.outletArgs.model.tags + " " + this.args.outletArgs.model.category.id;
   }
 }
