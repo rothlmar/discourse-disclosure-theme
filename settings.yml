@@ -2,3 +2,7 @@ example_setting:
   default: true
   description:
     en: A description of a setting.
+valid_tags:
+  default: completed|feature
+  type: list
+
