@@ -5,4 +5,6 @@ example_setting:
 valid_tags:
   default: completed|feature
   type: list
+category_id:
+  default: 1
 
