@@ -5,6 +5,7 @@ export default class BeforeDisclosure extends Component {
   @service siteSettings;
 
   get processableTags() {
-    return this.siteSettings.valid_tags    
+    console.log(this.siteSettings)
+    return "TAGS: " + this.siteSettings.valid_tags    
   }
 }
