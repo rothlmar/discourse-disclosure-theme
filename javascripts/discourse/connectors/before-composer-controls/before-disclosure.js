@@ -18,7 +18,7 @@ export default class BeforeDisclosure extends Component {
     let allowed_tags = settings.valid_tags.split("|");
     let tag_match = false;
     for (const assigned_tag in this.args.outletArgs.model.tags) {
-      if (allowed_tags.includes(assigned_tag) {
+      if (allowed_tags.includes(assigned_tag)) {
         tag_match = true;
         break;
       }
