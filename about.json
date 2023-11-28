@@ -1,0 +1,7 @@
+{
+  "name": "discourse-disclosure-theme",
+  "component": true,
+  "license_url": "https://github.com/rothlmar/discourse-disclosure-theme/blob/main/LICENSE",
+  "about_url": "https://github.com/rothlmar/discourse-disclosure-theme/blob/main/README.md",
+  "theme_version": "0.0.2"
+}
