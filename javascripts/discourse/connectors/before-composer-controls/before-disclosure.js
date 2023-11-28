@@ -8,7 +8,6 @@ export default class BeforeDisclosure extends Component {
   }
 
   static shouldRender(outletArgs, helper) {
-    console.log("args: ", this.args);
     console.log(outletArgs.model.tags);
     return outletArgs.model.tags.length > 0;
   }
