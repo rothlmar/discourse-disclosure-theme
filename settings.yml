@@ -7,4 +7,5 @@ valid_tags:
   type: list
 category_id:
   default: 1
-
+disclosure_text:
+  default: By submitting a post, you agree to the terms and conditions of this forum.
