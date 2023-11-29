@@ -1,8 +1,8 @@
 import Component from "@glimmer/component";
 
 export default class BeforeDisclosure extends Component {
-
   get showDisclosure() {
-    return this.args.outletArgs.model.category?.id === settings.category_id;
+    let category_ids = settings.category_ids.split("|").map(parseInt);
+    return category_ids.includes(this.args.outletArgs.model.category?.id);
   }
 }
