@@ -5,9 +5,3 @@
   margin-left: 2em;
   display: block;
 }
-
-span:has(> .legal-disclosure) {
-  display:block;
-  float:left;
-  clear:left;
-}
