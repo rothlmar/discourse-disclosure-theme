@@ -8,4 +8,6 @@
 
 span:has(> .legal-disclosure) {
   display:block;
+  float:left;
+  clear:left;
 }
