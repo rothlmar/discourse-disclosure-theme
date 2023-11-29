@@ -1,5 +1,5 @@
 category_ids:
-  default: 1
+  default: 1|
   type: list
 disclosure_text:
   default: By submitting a post, you agree to the terms and conditions of this forum.
