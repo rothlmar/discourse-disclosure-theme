@@ -1,5 +1,8 @@
-# **Theme Name**
+# **Legal Disclosure Component**
 
 **Theme Summary**
 
-For more information, please see: **url to meta topic**
+This theme component makes legal disclosure text appear in the composer for certain specified categories.  
+The text and the categories are defined in settings, so they appear on the Discourse admin page for this theme component.
+
+For more information, please see: **TBD**
